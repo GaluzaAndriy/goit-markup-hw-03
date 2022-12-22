@@ -8,10 +8,25 @@
   --title-color: #2e2f42;
   --active-color: #4d5ae5;
 } 
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
 
 body {
   font-family: "Roboto", sans-serif;
   color: var(--main-body-color);
+}
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+margin: 0 auto;
 }
  
  .visually-hidden {
