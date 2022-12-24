@@ -55,9 +55,20 @@ margin: 0 auto;
 /*------------- HEADER------------------------*/
 .header {
   background-color: var(--first-background-color);
+  display: flex;
+  align-items: center;
 }
 
-/*.header-navigation {}*/
+.header-container {
+  display: flex;
+
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
 
 .heder-logo {
   font-family: "Raleway" sans-serif;
@@ -69,13 +80,20 @@ margin: 0 auto;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-color);
+  margin-top: 24px;
+  margin-right: 76px;
+  margin-bottom: 24px;
+  margin-left: 156px;
 }
 
 .header-part-logo {
   color: var(--active-color);
 }
 
-/*.header-list {}*/
+.header-list {
+  display: flex;
+  gap: 40px;
+}
 
 /*.header-item {}{}*/
 
@@ -95,11 +113,14 @@ margin: 0 auto;
   color: var(--active-color);
 }
 
-/* .header-contacts {
+.header-contacts {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .header-contacts-mail {
-} */
+}
 
 .header-mail {
   font-size: var(--main-font-size);
