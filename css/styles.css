@@ -23,10 +23,10 @@ body {
 }
 
 .container {
-  width: 1158px;
+  width: 1440px;
   padding-left: 15px;
   padding-right: 15px;
-margin: 0 auto;
+  margin: 0 auto;
 }
  
  .visually-hidden {
@@ -132,8 +132,9 @@ margin: 0 auto;
 .header-mail:focus {
   color: var(--active-color);
 }
-/* .header-contacts-tel {
-} */
+.header-contacts-tel {
+  padding-right: 156px;
+}
 
 .header-tel {
   font-size: var(--main-font-size);
@@ -150,8 +151,13 @@ margin: 0 auto;
 } */
 
 /*------------- HERO------------------------*/
+
 .hero {
   background-color: var(--title-color);
+}
+
+.container-hero {
+  display: flex;
 }
 
 .hero-title {
@@ -160,21 +166,26 @@ margin: 0 auto;
   line-height: 1.07;
   text-align: center;
   letter-spacing: var(--main-letter-spacing);
-  color: var(--first-white-color);
+  padding-top: 188px;
+  padding-right: auto;
+  padding-bottom: 292px;
+  padding-left: auto;
+  
 }
 
 .hero-btn {
+  min-width: 169px;
+  height: 56px;
   font-family: "Roboto" sans-serif;
   font-weight: var(--main-font-weigth);
   font-size: var(--main-font-size);
   line-height: 1.19;
-  display: flex;
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--first-white-color);
   background-color: var(--active-color);
   cursor: pointer;
-}
+   }
 .hero-btn:active {
   background-color: #404bbf;
 }
