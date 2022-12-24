@@ -24,6 +24,7 @@ img {
 body {
   font-family: "Roboto", sans-serif;
   color: var(--main-body-color);
+  /* background-color: aqua; */
 }
 
 .container {
@@ -199,6 +200,7 @@ body {
 /*------------- FEATURES------------------------*/
 .features {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .features-list {
@@ -217,7 +219,7 @@ body {
   line-height: 1.2;
   letter-spacing: var(--main-letter-spacing);
   color: var(--title-color);
-  padding-bottom: 8px;
+  margin-bottom:  8px;
 }
 
 .features-after-title {
@@ -226,8 +228,10 @@ body {
   letter-spacing: 0.02em;
 }
 /*------------- EXAMPLES------------------------*/
-/* .examples {
-} */
+.examples {
+  text-align: center;
+  padding-bottom: 120px;
+}
 
 .examples-title {
   font-weight: var(--main-font-weigth);
@@ -237,19 +241,24 @@ body {
   letter-spacing: var(--main-letter-spacing);
   text-transform: capitalize;
   color: var(--title-color);
+  margin-bottom: 72px;
 }
 
 .examples-list {
   display: flex;
+  gap: 24px;
 }
-
+/* 
 .examples-item {
-}
+} */
 
 /*------------- TEAM------------------------*/
 
 .team {
   background-color: var(--first-background-color);
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #F4F4FD;
 }
 
 .team-title {
@@ -260,15 +269,18 @@ body {
   letter-spacing: var(--main-letter-spacing);
   text-transform: capitalize;
   color: var(--title-color);
+  margin-bottom: 72px;
 }
 .team-list {
   display: flex;
-  background-color: var(--first-background-color);
+  gap: 24px;
+  background-color: #F4F4FD;
 
 }
 
-/* .team-item {
-} */
+.team-item {
+  background-color: var(--first-background-color);
+}
 
 .team-subtitle {
   font-weight: var(--main-font-weigth);
@@ -277,17 +289,22 @@ body {
   text-align: center;
   letter-spacing: var(--main-letter-spacing);
   color: var(--title-color);
+  margin-top: 32px;
 }
 .team-after-subtitle {
   font-size: var(--main-font-size);
   line-height: 1.5;
   text-align: center;
   letter-spacing: var(--main-letter-spacing);
+  margin-top: 8px;
+  margin-bottom: 32px;
 }
 
 /*------------- FOOTER------------------------*/
 
 .footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: var(--title-color);
 }
 
@@ -301,6 +318,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+  margin-bottom: 16px;
 }
 
 .footer-logo-web {
@@ -308,6 +326,7 @@ body {
 }
 
 .footer-text {
+  width: 264px;
   font-size: var(--main-font-size);
   line-height: 1.5;
   letter-spacing: var(--main-letter-spacing);
