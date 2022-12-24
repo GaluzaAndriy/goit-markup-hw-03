@@ -334,18 +334,23 @@ body {
 }
 
 /*------------- PORTFOLIO------------------------*/
-/* 
+
 .portfolio-main {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
-.portfolio {
-}
+/* .portfolio {
+} */
 
 .filters-list {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 72px;
+  text-align: center;
 }
-
-.filters-item {
-} */
+  .filters-item {
+}
 
 .filters-btn {
   font-family: "Roboto" sans-serif;
@@ -368,8 +373,11 @@ body {
 .filters-btn:active {
   background-color: #404bbf;
 }
-/* .services-list {
-} */
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
 
 .services-item {
   background-color: var(--first-background-color);
