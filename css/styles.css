@@ -99,7 +99,9 @@ body {
   gap: 40px;
 }
 
-/*.header-item {}{}*/
+/* .header-item {
+  background-color: aqua;
+} */
 
 .header-link {
   font-weight: var(--main-font-weigth);
@@ -123,8 +125,8 @@ body {
   gap: 40px;
 }
 
-.header-contacts-mail {
-}
+/* .header-contacts-mail {
+} */
 
 .header-mail {
   font-size: var(--main-font-size);
@@ -154,26 +156,27 @@ body {
 } */
 
 /*------------- HERO------------------------*/
+.button {
+  border: 1px solid transparent;
+}
 
 .hero {
   background-color: var(--title-color);
+  text-align: center;
 }
 
 .container-hero {
-  display: flex;
+  padding: 188px 317px;
 }
 
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 48px;
   font-weight: var(--main-font-weigth);
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: var(--main-letter-spacing);
-  padding-top: 188px;
-  padding-right: auto;
-  padding-bottom: 292px;
-  padding-left: auto;
-  
+  color: var(--first-white-color);
 }
 
 .hero-btn {
@@ -195,23 +198,26 @@ body {
 }
 /*------------- FEATURES------------------------*/
 .features {
+  padding-top: 120px;
 }
 
 .features-list {
   display: flex;
+  gap: 24px;
 }
 
 .features-item {
-}
-.container-features {
-  display: flex;
-}
+  width: calc((100%-72px) / 4);
+  }
+
+
 .features-title {
   font-weight: var(--main-font-weigth);
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: var(--main-letter-spacing);
   color: var(--title-color);
+  padding-bottom: 8px;
 }
 
 .features-after-title {
