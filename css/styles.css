@@ -27,7 +27,7 @@ body {
 }
 
 .container {
-  width: 1440px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -87,7 +87,7 @@ body {
   margin-top: 24px;
   margin-right: 76px;
   margin-bottom: 24px;
-  margin-left: 156px;
+
 }
 
 .header-part-logo {
@@ -136,9 +136,8 @@ body {
 .header-mail:focus {
   color: var(--active-color);
 }
-.header-contacts-tel {
-  padding-right: 156px;
-}
+/* .header-contacts-tel {
+ } */
 
 .header-tel {
   font-size: var(--main-font-size);
@@ -194,15 +193,18 @@ body {
   background-color: #404bbf;
 }
 /*------------- FEATURES------------------------*/
-/* .features {
+.features {
 }
 
 .features-list {
+  display: flex;
 }
 
 .features-item {
-} */
-
+}
+.container-features {
+  display: flex;
+}
 .features-title {
   font-weight: var(--main-font-weigth);
   font-size: 20px;
@@ -230,11 +232,12 @@ body {
   color: var(--title-color);
 }
 
-/* .examples-list {
+.examples-list {
+  display: flex;
 }
 
 .examples-item {
-} */
+}
 
 /*------------- TEAM------------------------*/
 
@@ -252,7 +255,9 @@ body {
   color: var(--title-color);
 }
 .team-list {
+  display: flex;
   background-color: var(--first-background-color);
+
 }
 
 /* .team-item {
