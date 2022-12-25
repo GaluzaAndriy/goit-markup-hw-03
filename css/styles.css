@@ -68,9 +68,7 @@ body {
   background-color: var(--first-background-color);
   display: flex;
   flex-wrap: wrap;
-
-
-} 
+}
 
 .header-container {
   display: flex;
@@ -89,7 +87,7 @@ body {
 
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  border-bottom-color: #E7E9FC;
+  border-bottom-color: #e7e9fc;
 
   border-left-width: 1px;
   border-left-style: solid;
@@ -235,7 +233,7 @@ body {
 
 .features-list {
   display: flex;
-   gap: 24px;
+  gap: 24px;
 }
 
 .features-item {
@@ -423,15 +421,15 @@ body {
 
   border-right-width: 1px;
   border-right-style: solid;
-  border-right-color: #E7E9FC;
+  border-right-color: #e7e9fc;
 
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  border-bottom-color: #E7E9FC;
+  border-bottom-color: #e7e9fc;
 
   border-left-width: 1px;
   border-left-style: solid;
-  border-left-color: #E7E9FC;
+  border-left-color: #e7e9fc;
 }
 
 .services-item {
