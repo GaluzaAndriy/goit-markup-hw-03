@@ -28,17 +28,17 @@ img {
   display: block;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-body-color);
+  /* background-color: aqua; */
+}
+
 .container {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-  color: var(--main-body-color);
-  /* background-color: aqua; */
 }
 
 .visually-hidden {
@@ -67,7 +67,7 @@ body {
 .header {
   background-color: var(--first-background-color);
   display: flex;
- }
+}
 
 .header-container {
   display: flex;
@@ -215,8 +215,8 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--first-white-color);
-  border-color:  #4D5AE5;
-  background-color: #4D5AE5;
+  border-color: #4d5ae5;
+  background-color: #4d5ae5;
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
