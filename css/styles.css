@@ -125,14 +125,20 @@ body {
 
 .header-list {
   display: flex;
-  gap: 40px;
+  gap: 0;
 }
 
 /* .header-item {
+
   background-color: aqua;
 } */
 
 .header-link {
+  padding-top: 24px;
+  padding-right: 20px;
+  padding-bottom: 24px;
+  padding-left: 20px;
+  
   font-weight: var(--main-font-weigth);
   font-size: var(--main-font-size);
   line-height: 1.5;
@@ -159,6 +165,8 @@ body {
 } */
 
 .header-mail {
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-size: var(--main-font-size);
   line-height: 1.5;
   letter-spacing: var(--main-letter-spacing);
@@ -172,6 +180,8 @@ body {
  } */
 
 .header-tel {
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-size: var(--main-font-size);
   line-height: 1.5;
   letter-spacing: var(--main-letter-spacing);
